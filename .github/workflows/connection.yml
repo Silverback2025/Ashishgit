@@ -18,9 +18,9 @@ jobs:
     - name: Log in to Azure
       uses: azure/login@v1
       with:
-        client-id: 50a3b6aa-eb33-4ac4-8486-c9741b143692
-        tenant-id: 2a94770e-b9f7-4a56-bd2d-01576d842937
-        subscription-id: c9a64aa6-d430-43a8-a468-96c3018719cd
+        client-id: ****
+        tenant-id: ****
+        subscription-id: ****
 
     - name: Run Azure CLI command
       run: |
